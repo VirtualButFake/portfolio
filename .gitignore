@@ -18,6 +18,7 @@ logs
 .fleet
 .idea
 .vscode
+package-lock.json
 
 # Local env files
 .env
