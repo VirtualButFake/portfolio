@@ -45,12 +45,14 @@
 						v-for="(link, idx) in links"
 						:key="link.href"
 					>
-						<NavLink
-							:to="link.href"
-							text-class="font-normal text-sm"
-						>
-							{{ link.name }}
-						</NavLink>
+						<div @click="buttonClicked = false">
+							<NavLink
+								:to="link.href"
+								text-class="font-normal text-sm"
+							>
+								{{ link.name }}
+							</NavLink>
+						</div>
 						<UDivider
 							class="my-3"
 							v-if="idx !== links.length - 1"

@@ -148,7 +148,7 @@ export default defineAppConfig({
 		{
 			title: "Portfolio",
 			description:
-				'My second attempt at a portfolio, this time in Nuxt and Tailwind. Third ever "proper" attempt at web development, and first time using Nuxt.',
+				'My second attempt at a portfolio, this time in Nuxt and Tailwind.',
 			stack: ["Nuxt", "Tailwind", "TypeScript"],
 			image: "portfolio.png",
 			buttons: [
