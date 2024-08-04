@@ -1,14 +1,17 @@
-<h1 align="center">
-  tijne.net - my portfolio 
-</h1>
-<p align="center">
-Second iteration of my portfolio, built with Nuxt and Tailwind, hosted with Nitro.
-</p>
+<div align="center">
 
----
+# Portfolio
+
+My personal portfolio, built with Nuxt and Tailwind.
+
+[![License](https://img.shields.io/github/license/virtualbutfake/fusion-autocomplete)](https://github.com/VirtualButFake/fusion-autocomplete/blob/master/LICENSE.md)
+
+</div>
+
+This site is available on [tijne.net](https://tijne.net).
 
 ![Site preview](https://cdn.tijne.net/6blZUlIfcCLy/direct)
 
-<p align="center">
-Available at <a href="https://tijne.net" target="_blank">tijne.net</a>
-</p>
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/virtualbutfake/portfolio/blob/master/LICENSE.md) file for details.
