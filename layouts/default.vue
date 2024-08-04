@@ -110,13 +110,4 @@
 		ogDescription: "My portfolio website.",
 		themeColor: "#9683EC",
 	});
-
-	useHead({
-		meta: [
-			{
-				name: "darkreader-lock",
-				content: "true",
-			},
-		],
-	});
 </script>

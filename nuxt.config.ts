@@ -19,6 +19,12 @@ export default defineNuxtConfig({
 			htmlAttrs: {
 				lang: "en",
 			},
+			meta: [
+				{
+					name: "darkreader-lock",
+					content: "true",
+				},
+			],
 		},
 	},
 	ui: {
