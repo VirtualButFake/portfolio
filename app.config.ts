@@ -41,10 +41,10 @@ export default defineAppConfig({
 			title: "Programmer at",
 			highlight: "Bulk Games",
 			link: "https://www.linkedin.com/company/bulkgames/",
-			date: "Oct 2023 - Present",
+			date: "Oct 2023 - July 2024",
 			stack: ["Full Stack", "Luau", "Git", "Rojo", "Lune"],
 			description:
-				"Responsible for several additions to the studio's projects, including user-facing interactive components, UI and UX, optimizing the backend architecture of these projects and responsive NPC controllers. Provided several additions to the studio's tooling, such as integrating a package manager and several tools into the studio's workflow and optimizing the studio's workflow.",
+				"Developed user-facing interactive components, improved UI/UX, implemented responsive NPC controllers, and enhanced the studio's workflow by integrating a package manager, adding tools like Aftman and continuous integration, and optimizing processes.",
 		},
 		{
 			title: "Lead Programmer at",
@@ -63,7 +63,7 @@ export default defineAppConfig({
 				"Security",
 			],
 			description:
-				"Responsible for leading the studio in the development of several large scale projects, setting up a developer-friendly workflow through Git, Rojo and other tooling, writing extremely optimized code responsible for managing thousands of entities at once and designing and programming responsive and interactive UI and UX through Fusion.",
+				"Led development of large-scale projects, established a developer-friendly workflow with Git and Rojo, created custom tooling to optimize processes, wrote optimized code managing thousands of entities, and designed responsive UI/UX using Fusion.",
 		},
 		{
 			title: "Programmer and Project Lead at",
@@ -72,7 +72,7 @@ export default defineAppConfig({
 			date: "Oct 2020 - Aug 2021",
 			stack: ["Full Stack", "Luau", "Project Management"],
 			description:
-				"Responsible for managing a large team of cross-functional developers across several large projects, writing high-quality robust code responsible for anti-cheat functionality, backend additions, game optimizations, re-designing the entire game's interface and re-evaluating the game's UX.",
+				"Managed a large team of cross-functional developers on several projects, wrote robust backend code and game optimizations, redesigned the game's interface, and re-evaluated its UX.",
 		},
 		{
 			title: "Intern at",
@@ -108,13 +108,13 @@ export default defineAppConfig({
 		{
 			title: "CodeSpan",
 			description:
-				"CodeSpan allows you to create beautiful diagnostics for your Lune applications, based on codespan-reporting.",
+				"codespan-lune allows you to create beautiful diagnostics for your Lune applications, based on the original library for Rust.",
 			stack: ["Lune"],
 			image: "diagnostics.png",
 			buttons: [
 				{
 					text: "GitHub",
-					link: "https://github.com/VirtualButFake/codespan",
+					link: "https://github.com/VirtualButFake/codespan-lune",
 					icon: "simple-icons:github",
 					class: "transition-self hover:ring-primary-500",
 				},
@@ -128,12 +128,12 @@ export default defineAppConfig({
 		{
 			title: "Fusion Autocomplete",
 			description:
-				"Fusion Autocomplete is a Visual Studio Code extension that adds autocomplete support for Fusion, autocompleting class names, properties, functions and function parameters. Made as a proof of concept but ended up fleshing it out more.",
+				"Fusion Autocomplete is a Visual Studio Code extension that adds autocomplete support for Fusion, autocompleting class names, properties, functions and function parameters.",
 			stack: ["TypeScript"],
 			buttons: [
 				{
 					text: "GitHub",
-					link: "https://github.com/VirtualButFake/fusion_autocomplete",
+					link: "https://github.com/VirtualButFake/fusion-autocomplete",
 					icon: "simple-icons:github",
 					class: "transition-self hover:ring-primary-500",
 				},
@@ -148,7 +148,7 @@ export default defineAppConfig({
 		{
 			title: "Portfolio",
 			description:
-				'My second attempt at a portfolio, this time in Nuxt and Tailwind.',
+				"A portfolio made over the course of a few weeks, built with Nuxt, Tailwind and TypeScript. It features full dark mode support, a responsive design, and a clean, minimalistic look.",
 			stack: ["Nuxt", "Tailwind", "TypeScript"],
 			image: "portfolio.png",
 			buttons: [
@@ -156,8 +156,49 @@ export default defineAppConfig({
 					text: "GitHub",
 					icon: "simple-icons:github",
 					class: "transition-self hover:ring-primary-500",
-					link: "https://github.com/VirtualButFake/Portfolio",
+					link: "https://github.com/VirtualButFake/portfolio",
 				},
+			],
+		},
+		{
+			title: "FusionComponents",
+			description:
+				"A collection of 31 components for Fusion, using Tailwind colors, the Lucide icon set and a custom theming engine. This project took around half a year to realize, and was a great learning experience.",
+			stack: ["Fusion", "Luau"],
+			image: "fusioncomponents.png",
+			buttons: [
+				{
+					text: "GitHub",
+					icon: "simple-icons:github",
+					class: "transition-self hover:ring-primary-500",
+					link: "https://github.com/virtualbutfake/fusion-components",
+				},
+				{
+					text: "View documentation",
+					class: "transition-self hover:ring-primary-500 dark:bg-primary-400/20 hover:dark:bg-primary-400/40",
+					link: "https://docs.tijne.net/fusioncomponents",
+				},
+			],
+		},
+		{
+			title: "VFX Editor",
+			description:
+				"An all-in-one VFX editor for Roblox, built with Fusion and FusionComponents. Overhauls and reimagines native features of Roblox Studio, optimizing them for efficiency and ease of use.",
+			stack: ["Fusion", "Luau"],
+			image: "vfxeditor.png",
+			buttons: [
+				{
+					text: "GitHub",
+					icon: "simple-icons:github",
+					class: "transition-self hover:ring-primary-500",
+					link: "https://github.com/virtualbutfake/vfx-editor",
+				},
+                {
+                    text: "Roblox DevForum Post",
+                    icon: "simple-icons:roblox",
+                    class: "transition-self hover:ring-primary-500",
+                    link: "https://devforum.roblox.com/t/3103467"
+                }
 			],
 		},
 	],

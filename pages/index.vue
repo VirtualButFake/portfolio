@@ -80,7 +80,7 @@
 			>
 				<p class="text-primary mb-4 text-xl font-bold">Who am I?</p>
 				<p class="text-left text-gray-700 dark:text-gray-300/90">
-					Back in 2013 (when I was just 8!), I discovered Roblox,
+					Back in 2013 (when I was just 8 !), I discovered Roblox,
 					which piqued my interest in game development and
 					programming. I started off slowly with Lua, which is used to
 					develop games inside the Roblox game engine, and ended up
@@ -88,15 +88,15 @@
 					development.
 					<br />
 					<br />
-					Motivated by a curiosity for diverse technologies, as I grew
-					older I learned about more advanced topics like reverse
-					engineering, security, parsers, and web development, during
-					which I also grew interested in UI and UX design. This
-					interest has ultimately brought me to where I am now.
+					As I grew older, my curiosity led me to explore other topics
+					like reverse engineering, security, parsers, and web
+					development. Along the way, I also became fascinated by
+					UI/UX design and this has ultimately shaped a lot of what I
+					do today.
 					<br />
 					<br />
 					This evolving interest has been a driving force behind my
-					nearly 8 years of hands-on experience in Roblox development.
+					nearly 9 years of hands-on experience in Roblox development.
 					I've left a notable footprint in the Roblox open-source
 					community, primarily with libraries and tools aimed at
 					standalone usage of Luau.
