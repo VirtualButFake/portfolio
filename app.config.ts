@@ -161,6 +161,20 @@ export default defineAppConfig({
 			],
 		},
 		{
+			title: "zap-vscode",
+			description:
+				"A Visual Studio Code extension that provides syntax highlighting and intellisense for the Zap IDL. ",
+			stack: ["TypeScript"],
+			buttons: [
+				{
+					text: "GitHub",
+					icon: "simple-icons:github",
+					class: "transition-self hover:ring-primary-500",
+					link: "https://github.com/VirtualButFake/zap-vscode",
+				},
+			],
+		},
+		{
 			title: "FusionComponents",
 			description:
 				"A collection of 31 components for Fusion, using Tailwind colors, the Lucide icon set and a custom theming engine. This project took around half a year to realize, and was a great learning experience.",
@@ -193,12 +207,12 @@ export default defineAppConfig({
 					class: "transition-self hover:ring-primary-500",
 					link: "https://github.com/virtualbutfake/vfx-editor",
 				},
-                {
-                    text: "Roblox DevForum Post",
-                    icon: "simple-icons:roblox",
-                    class: "transition-self hover:ring-primary-500",
-                    link: "https://devforum.roblox.com/t/3103467"
-                }
+				{
+					text: "Roblox DevForum Post",
+					icon: "simple-icons:roblox",
+					class: "transition-self hover:ring-primary-500",
+					link: "https://devforum.roblox.com/t/3103467",
+				},
 			],
 		},
 	],
