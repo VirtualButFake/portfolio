@@ -146,6 +146,20 @@ export default defineAppConfig({
 			],
 		},
 		{
+			title: "zap-vscode",
+			description:
+				"A Visual Studio Code extension that provides syntax highlighting and intellisense for the Zap IDL. Designed to mimic the Luau Language Server, it provides a seamless experience for Zap developers.",
+			stack: ["TypeScript"],
+			buttons: [
+				{
+					text: "GitHub",
+					icon: "simple-icons:github",
+					class: "transition-self hover:ring-primary-500",
+					link: "https://github.com/VirtualButFake/zap-vscode",
+				},
+			],
+		},
+		{
 			title: "Portfolio",
 			description:
 				"A portfolio made over the course of a few weeks, built with Nuxt, Tailwind and TypeScript. It features full dark mode support, a responsive design, and a clean, minimalistic look.",
@@ -157,20 +171,6 @@ export default defineAppConfig({
 					icon: "simple-icons:github",
 					class: "transition-self hover:ring-primary-500",
 					link: "https://github.com/VirtualButFake/portfolio",
-				},
-			],
-		},
-		{
-			title: "zap-vscode",
-			description:
-				"A Visual Studio Code extension that provides syntax highlighting and intellisense for the Zap IDL. ",
-			stack: ["TypeScript"],
-			buttons: [
-				{
-					text: "GitHub",
-					icon: "simple-icons:github",
-					class: "transition-self hover:ring-primary-500",
-					link: "https://github.com/VirtualButFake/zap-vscode",
 				},
 			],
 		},
