@@ -10,6 +10,11 @@ export default defineNuxtConfig({
 		"@vueuse/nuxt",
 		"@nuxt/image",
 	],
+	colorMode: {
+		preference: "system",
+		fallback: "light",
+		storageKey: "theme-preference",
+	},
 	tailwindcss: {
 		cssPath: "~/assets/css/tailwind.css",
 	},

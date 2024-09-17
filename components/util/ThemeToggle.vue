@@ -23,7 +23,10 @@
 
 	const isDark = computed({
 		get: () => mode.value === "dark",
-		set: (value) => (mode.value = value ? "dark" : "light"),
+		set: (value) => {
+            mode.value = value ? "dark" : "light";
+            mode.preference = value ? "dark" : "light"; // this has to be done in order to ensure that header links don't reset the theme
+        },
 	});
 
 	defineProps({
