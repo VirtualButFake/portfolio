@@ -76,7 +76,7 @@
 			class="grid max-w-6xl grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 lg:gap-12"
 		>
 			<div
-				class="transition-self flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:bg-white/95 hover:border-gray-200 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-800/30"
+				class="transition-self flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:bg-white/95 hover:border-gray-200 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-800/30 dark:hover:border-gray-700"
 			>
 				<p class="text-primary mb-4 text-xl font-bold">Who am I?</p>
 				<p class="text-left text-gray-700 dark:text-gray-300/90">
@@ -110,7 +110,7 @@
 				</p>
 			</div>
 			<div
-				class="transition-self h-min flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:bg-white/95 hover:border-gray-200 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-800/30"
+				class="transition-self h-min flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:bg-white/95 hover:border-gray-200 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-800/30 dark:hover:border-gray-700"
 			>
 				<p class="text-primary mb-4 text-xl font-bold">Skills</p>
 				<div v-for="(skillList, categoryName) in skills">
