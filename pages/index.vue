@@ -76,11 +76,11 @@
 			class="grid max-w-6xl grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 lg:gap-12"
 		>
 			<div
-				class="transition-self hover:border-primary flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:bg-white/90 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-900/80"
+				class="transition-self flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:bg-white/95 hover:border-gray-200 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-800/30"
 			>
 				<p class="text-primary mb-4 text-xl font-bold">Who am I?</p>
 				<p class="text-left text-gray-700 dark:text-gray-300/90">
-					Back in 2013 (when I was just 8 !), I discovered Roblox,
+					Back in 2013 (when I was just 8!), I discovered Roblox,
 					which piqued my interest in game development and
 					programming. I started off slowly with Lua, which is used to
 					develop games inside the Roblox game engine, and ended up
@@ -110,7 +110,7 @@
 				</p>
 			</div>
 			<div
-				class="transition-self hover:border-primary h-min flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:bg-white/90 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-900/80"
+				class="transition-self h-min flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:bg-white/95 hover:border-gray-200 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-800/30"
 			>
 				<p class="text-primary mb-4 text-xl font-bold">Skills</p>
 				<div v-for="(skillList, categoryName) in skills">
@@ -242,7 +242,7 @@
 					<p
 						class="flex-1 text-right text-gray-400 dark:text-gray-600"
 					>
-						Copyright 2024
+						Copyright  
 					</p>
 					<p class="text-gray-400 dark:text-gray-600">
 						&nbsp;•&nbsp;

@@ -14,7 +14,7 @@
 			</div>
 			<div>
 				<h3
-					class="group-hover:text-primary-500 group:dark:hover:text-primary-400 transition-self text-lg font-semibold text-gray-900 dark:text-white"
+					class="group-hover:text-primary-700/70 group-hover:dark:text-primary-300 transition-self text-lg font-semibold text-gray-900 dark:text-white"
 				>
 					{{ item.title }}
 				</h3>
